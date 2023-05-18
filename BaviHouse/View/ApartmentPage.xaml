@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BaviHouse.View.ApartmentPage"
+             xmlns:model="clr-namespace:BaviHouse.Model"
+             xmlns:viewmodel="clr-namespace:BaviHouse.ViewModel"
+             Title="Apartment Page"
+             x:DataType="viewmodel:ApartmentViewModel">
+    
+    
+    <CollectionView SelectionMode="None"
+                        ItemsSource="{Binding ApartmentList}">
+        <CollectionView.ItemTemplate>
+            <DataTemplate x:DataType="model:Apartment">
+                <Frame Margin="5"
+                       HeightRequest="70"
+                       x:DataType="model:Apartment">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            CommandParameter="{Binding .}"
+                            Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ApartmentViewModel}}, Path=GoApartmentDetailCommand}"/>
+                    </Frame.GestureRecognizers>
+                    <Grid ColumnDefinitions=".6*,.4*"
+                          ColumnSpacing="5">
+                        <Label Text="Apartment NO."
+                               FontSize="20"
+                               HorizontalOptions="End"
+                               Grid.Column="0"
+                               Margin="0"/>
+                        <Label Text="{Binding UnitNum}" 
+                               FontSize="20"
+                               Grid.Column="1"
+                               HorizontalOptions="Start"
+                               Margin="0"/>
+                    </Grid>
+                </Frame>
+            </DataTemplate>
+        </CollectionView.ItemTemplate>
+    </CollectionView>
+</ContentPage>
