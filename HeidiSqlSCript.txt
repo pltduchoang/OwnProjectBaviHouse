@@ -1,0 +1,23 @@
+CREATE TABLE AppartmentUnits(
+	 unitNum INT,
+	 fName VARCHAR(15) NOT NULL,
+	 lName VARCHAR(15) NOT NULL,
+	 beganDate DATE,
+	 deposit DOUBLE NOT NULL,
+	 phone VARCHAR(10),
+	 rent DOUBLE NOT NULL,
+	 waterLaundry DOUBLE NOT NULL,
+    last_power INT,
+	 new_power INT NOT NULL,	
+	 CONSTRAINT phone_CK CHECK(phone IS NULL OR phone REGEXP '[0-9]{10}$'),
+	 CONSTRAINT tenant_pk PRIMARY KEY (unitNum)
+);
+
+INSERT INTO AppartmentUnits VALUES (101, 'El', 'Twat', "2019-03-18", 700.00, '5773662444', 2500.00, 60.00, 900, 122);
+INSERT INTO AppartmentUnits VALUES (102, 'Joe', 'Blow', "2021-09-09", 1200, '1234566789', 1900, 55, 850, 115);
+INSERT INTO AppartmentUnits VALUES (103, 'Fa', 'Q', "2017-01-01", 69, '6969696969', 2000, 69, 920, 125);
+INSERT INTO AppartmentUnits VALUES (104, 'Mickey', 'Dznutz', "2022-09-21", 420, '7865674567', 2420, 45, 1020, 138);
+INSERT INTO AppartmentUnits VALUES (105, 'Eric', 'Cartmen', "2023-02-10", 20, '9119119111', 2301, 80, 700, 95);
+INSERT INTO AppartmentUnits VALUES (106, 'Kyle', 'Broflovski', "2020-11-08", 2000, '9999999999', 1800, 51, 769, 104);
+INSERT INTO AppartmentUnits VALUES (107, 'Stan', 'Marsh', "2020-10-12", 900, '6452364758', 1869, 49, 800, 108);
+INSERT INTO appartmentunits VALUES (108, 'Kenneth', 'McCormick', "2019-01-13", 750, '7382331234', 1999, 72, 720, 97);
