@@ -40,7 +40,7 @@ namespace BaviHouse.ViewModel
             {
                 return;
             }
-            //await Shell.Current.GoToAsync("ApartmentDetailPage");
+            //await Shell.Current.GoToAsync($"{nameof(ApartmentDetailPage)}?UnitNum={apartment.UnitNum}");
             await Shell.Current.GoToAsync($"{nameof(ApartmentDetailPage)}", true,
                 new Dictionary<string, object>
                 {

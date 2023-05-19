@@ -21,8 +21,11 @@ public static class MauiProgram
         builder.Services.AddSingleton<ApartmentPage>();
         builder.Services.AddSingleton<ApartmentViewModel>();
 
-		builder.Services.AddTransient<ApartmentPage>();
-		builder.Services.AddTransient<ApartmentViewModel>();
+        builder.Services.AddSingleton<UtilityPage>();
+        builder.Services.AddSingleton<UtilityVIewModel>();
+
+        builder.Services.AddTransient<ApartmentDetailPage>();
+		builder.Services.AddTransient<ApartmentDetailViewModel>();
 #if DEBUG
 		builder.Logging.AddDebug();
 #endif

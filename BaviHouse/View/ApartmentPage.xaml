@@ -13,8 +13,7 @@
         <CollectionView.ItemTemplate>
             <DataTemplate x:DataType="model:Apartment">
                 <Frame Margin="5"
-                       HeightRequest="70"
-                       x:DataType="model:Apartment">
+                       HeightRequest="70">
                     <Frame.GestureRecognizers>
                         <TapGestureRecognizer 
                             CommandParameter="{Binding .}"
