@@ -15,7 +15,8 @@
                     HorizontalOptions="Center"
                     WidthRequest="150"
                     ItemsSource="{Binding ApartmentList}"
-                    ItemDisplayBinding="{Binding UnitNum}"/>
+                    ItemDisplayBinding="{Binding UnitNum}"
+                    SelectedItem="{Binding SelectedApartment}"/>
         </VerticalStackLayout>
         <Frame Grid.Row="1">
             <VerticalStackLayout Spacing="20">
@@ -23,7 +24,7 @@
                   ColumnSpacing="10">
                     <Label Text="Tenant's Name"
                        FontSize="20"/>
-                    <Label Text="xxxxxxx"
+                    <Label Text="{Binding SelectedApartment.FName}"
                        FontSize="20"
                        Grid.Column="1"/>
                 </Grid>
@@ -31,7 +32,8 @@
                   ColumnSpacing="10">
                     <Label Text="Room Rent"
                        FontSize="20"/>
-                    <Label Text="xxxxxxx"
+                    <Label Text="{Binding SelectedApartment.Rent,
+                        StringFormat='VND{0:N0}'}"
                        FontSize="20"
                        Grid.Column="1"/>
                 </Grid>
@@ -39,7 +41,8 @@
                   ColumnSpacing="10">
                     <Label Text="Fix Water Laundry"
                        FontSize="20"/>
-                    <Label Text="xxxxxxx"
+                    <Label Text="{Binding SelectedApartment.WaterLaundry,
+                        StringFormat='VND{0:N0}'}"
                        FontSize="20"
                        Grid.Column="1"/>
                 </Grid>
@@ -49,7 +52,7 @@
                                 ColumnSpacing="5">
                             <Label Text="Previous Electricity"
                                     FontSize="15"/>
-                            <Label Text="xxxxxxx"
+                            <Label Text="{Binding SelectedApartment.NewPower}"
                                     FontSize="15"
                                     Grid.Column="1"/>
                         </Grid>
@@ -61,9 +64,10 @@
                                    Grid.Column="1"
                                    WidthRequest="150"
                                    HorizontalOptions="Start"
-                                   x:Name="newElectricit"
+                                   x:Name="newElectricity"
                                    FontSize="15"
-                                   FontFamily="Courier-san"/>
+                                   FontFamily="Courier-san"
+                                   TextChanged="newElectricity_TextChanged"/>
                         </Grid>
                     </VerticalStackLayout>
                 </Frame>
@@ -72,7 +76,8 @@
                   ColumnSpacing="10">
                     <Label Text="Electricity Cost"
                        FontSize="20"/>
-                    <Label Text="xxxxxxx"
+                    <Label Text="{Binding ElectricityCost,
+                        StringFormat='VND{0:N0}'}"
                        FontSize="20"
                        Grid.Column="1"/>
                 </Grid>
@@ -80,10 +85,26 @@
                   ColumnSpacing="10">
                     <Label Text="DUE"
                        FontSize="20"/>
-                    <Label Text="xxxxxxx"
+                    <Label Text="{Binding AmmountDue,
+                        StringFormat='VND{0:N0}'}"
                        FontSize="20"
                        Grid.Column="1"/>
                 </Grid>
+                <Grid ColumnDefinitions="*,*">
+                    <Button Command="{Binding CalculationCommand}"
+                        x:DataType="viewmodel:UtilityVIewModel"
+                        Text="Calculate Rent"
+                        WidthRequest="150"
+                        HorizontalOptions="Center"/>
+                    <Button
+                        Command="{Binding CalculationCommand}"
+                        x:DataType="viewmodel:UtilityVIewModel"
+                        Text="Update Electricity"
+                        WidthRequest="150"
+                        HorizontalOptions="Center"
+                        Grid.Column="1"/>
+                </Grid>
+                
             </VerticalStackLayout>
         </Frame>
         <Frame Grid.Row="2">

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BaviHouse.View.DetailsUpdatePage"
+             xmlns:viewmodel="clr-namespace:BaviHouse.ViewModel"
+             xmlns:model="clr-namespace:BaviHouse.Model"
+             x:DataType="viewmodel:DetailsUpdateViewModel"
+             Title="DetailsUpdatePage">
+    <VerticalStackLayout Padding="10">
+        <HorizontalStackLayout Spacing="5">
+            <Label
+                Text="Details For Appartment No."/>
+            <Label 
+                Text="{Binding Apartment.UnitNum}"
+                x:Name="Lable"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+        </HorizontalStackLayout>
+        
+        <Grid ColumnDefinitions="*,*">
+            <Label Text="Tenant Name"
+                       FontSize="25"
+                       HorizontalOptions="Start"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="150"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.FName}"
+                   x:Name="NewTenantName"
+                   TextChanged="NewTenantName_TextChanged"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*">
+            <Label Text="Occupation Configure"
+                       FontSize="25"
+                       HorizontalOptions="Start"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="150"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.LName}"
+                   x:Name="NewOccupation"
+                   TextChanged="NewOccupation_TextChanged"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*">
+            <Label Text="Move-in Date"
+                       FontSize="25"
+                       HorizontalOptions="Start"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="150"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.BeganDate}"
+                   x:Name="NewMoveInDate"
+                   TextChanged="NewMoveInDate_TextChanged"  />
+        </Grid>
+        <Grid ColumnDefinitions="*,*">
+            <Label Text="Phone Number"
+                       FontSize="25"
+                       HorizontalOptions="Start"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="250"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.Phone}"
+                   x:Name="NewPhone"
+                   TextChanged="NewPhone_TextChanged"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*">
+            <Label Text="Initial Deposite"
+                       FontSize="25"
+                       HorizontalOptions="Start"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="150"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.Deposite}"
+                   x:Name="NewDeposite"
+                   TextChanged="NewDeposite_TextChanged"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*"
+                  ColumnSpacing="10">
+            <Label Text="Room Rent"
+                       FontSize="25"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="150"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.Rent}"
+                   x:Name="NewRent"
+                   TextChanged="Rent_TextChanged"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*"
+                  ColumnSpacing="10">
+            <Label Text="Fix Water Laundry"
+                       FontSize="25"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="150"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.WaterLaundry}"
+                   x:Name="NewWaterLaundry"
+                   TextChanged="NewWaterLaundry_TextChanged"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*"
+                  ColumnSpacing="5">
+            <Label Text="Current Electricity"
+                       FontSize="25"/>
+            <Entry Placeholder="Enter New Value"
+                       Grid.Column="1"
+                       WidthRequest="150"
+                       HorizontalOptions="Start"
+                       FontSize="25"
+                   Text="{Binding Apartment.NewPower}"
+                   x:Name="NewElectricityReading"
+                   TextChanged="NewElectricityReading_TextChanged"/>
+        </Grid>
+        <Grid ColumnDefinitions="*,*"
+              ColumnSpacing="10">
+            
+
+            <Button Text="Execute"
+                x:DataType="viewmodel:DetailsUpdateViewModel"
+                        WidthRequest="150"
+                        Clicked="Button_Clicked"/>
+            <Button Text="Go Back"
+                x:DataType="viewmodel:DetailsUpdateViewModel"
+                        WidthRequest="150"
+                        Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:DetailsUpdateViewModel}}, Path=GoBackCommand}"
+                        Grid.Column="1"/>
+        </Grid>
+    </VerticalStackLayout>
+</ContentPage>

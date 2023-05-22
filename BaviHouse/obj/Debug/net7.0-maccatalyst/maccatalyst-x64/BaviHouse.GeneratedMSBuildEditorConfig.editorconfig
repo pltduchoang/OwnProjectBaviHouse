@@ -34,17 +34,23 @@ build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/ApartmentDetailPage.xaml]
+[C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/ApartmentDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
-build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.ApartmentDetailPage.xaml
-build_metadata.AdditionalFiles.TargetPath = View\ApartmentDetailPage.xaml
-build_metadata.AdditionalFiles.RelativePath = View\ApartmentDetailPage.xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.ApartmentDetailsPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ApartmentDetailsPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ApartmentDetailsPage.xaml
 
 [C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/ApartmentPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.ApartmentPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ApartmentPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ApartmentPage.xaml
+
+[C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/DetailsUpdatePage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.DetailsUpdatePage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\DetailsUpdatePage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\DetailsUpdatePage.xaml
 
 [C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/UtilityPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

@@ -19,7 +19,7 @@
                             CommandParameter="{Binding .}"
                             Command="{Binding Source={RelativeSource AncestorType={x:Type viewmodel:ApartmentViewModel}}, Path=GoApartmentDetailCommand}"/>
                     </Frame.GestureRecognizers>
-                    <Grid ColumnDefinitions=".6*,.4*"
+                    <Grid ColumnDefinitions=".5*,.5*"
                           ColumnSpacing="5">
                         <Label Text="Apartment NO."
                                FontSize="20"

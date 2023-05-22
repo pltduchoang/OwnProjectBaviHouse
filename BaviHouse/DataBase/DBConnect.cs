@@ -117,6 +117,41 @@ namespace BaviHouse.DataBase
             //return list to be displayed
             return list;
         }
+        public void UpdateAppartment(int unitNum, string fName, string lName, DateOnly beganDate, double deposite, string phone, double rent, double waterLaundry,  int power)
+        {
+
+            //create mysql command
+            MySqlCommand cmd = new MySqlCommand();
+            //Assign the query using CommandText
+            cmd.CommandText = "UPDATE appartmentunits SET fName='" + fName + "', lName='" + lName + "', beganDate='" + beganDate + "', deposit= '" + deposite + "',phone = '"+ phone +"',rent= '" + rent + "', waterLaundry='" + waterLaundry + "', last_power=new_power" + ", new_power='" + power + "' WHERE unitNum='" + unitNum + "'";
+            //Assign the connection using Connection
+            cmd.Connection = connection;
+
+            //MySqlCommand cmd = new MySqlCommand(query, connection);
+            //Execute query
+            cmd.ExecuteNonQuery();
+
+            //close connection
+            this.CloseConnection();
+
+        }
+        public void UpdateUtility(int unitNum, int power)
+        {
+            //create mysql command
+            MySqlCommand cmd = new MySqlCommand();
+            //Assign the query using CommandText
+            cmd.CommandText = "UPDATE appartmentunits SET last_power=new_power" + ", new_power='" + power + "' WHERE unitNum='" + unitNum + "'";
+
+            //Assign the connection using Connection
+            cmd.Connection = connection;
+
+            //MySqlCommand cmd = new MySqlCommand(query, connection);
+            //Execute query
+            cmd.ExecuteNonQuery();
+
+            //close connection
+            this.CloseConnection();
+        }
     }
 
 }

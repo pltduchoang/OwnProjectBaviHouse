@@ -38,10 +38,28 @@ namespace BaviHouse.ViewModel
             }
         }
 
-        //[RelayCommand]
-        //async Task ChooseApartment()
-        //{
-        //    return;
-        //}
+       
+
+        [ObservableProperty]
+        Apartment selectedApartment;
+
+        [ObservableProperty]
+        double ammountDue = 0;
+
+        [ObservableProperty]
+        double electricityCost = 0;
+
+        public static int newReading = 0;
+
+        int unitCost = 4500;
+
+        [RelayCommand]
+        public void Calculation()
+        {
+
+            double electricityUsage = newReading - SelectedApartment.NewPower;
+            ElectricityCost = electricityUsage * unitCost;
+            AmmountDue = ElectricityCost + SelectedApartment.Rent + SelectedApartment.WaterLaundry;
+        }
     }
 }

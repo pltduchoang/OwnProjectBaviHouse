@@ -10,7 +10,8 @@ public partial class AppShell : Shell
 
 
 		//nameof(ApartmentDetailPage) == "ApartmentDetailPage"
-		Routing.RegisterRoute(nameof(ApartmentDetailPage), typeof(ApartmentDetailPage));
+		Routing.RegisterRoute(nameof(ApartmentDetailsPage), typeof(ApartmentDetailsPage));
         Routing.RegisterRoute(nameof(UtilityPage), typeof(UtilityPage));
+		Routing.RegisterRoute(nameof(DetailsUpdatePage), typeof(DetailsUpdatePage));
     }
 }

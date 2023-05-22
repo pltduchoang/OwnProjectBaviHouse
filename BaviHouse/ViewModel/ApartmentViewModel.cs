@@ -34,14 +34,14 @@ namespace BaviHouse.ViewModel
         }
 
         [RelayCommand]
-        async Task GoApartmentDetail(Apartment apartment)
+        async Task GoApartmentDetailAsync(Apartment apartment)
         {
             if (apartment is null)
             {
                 return;
             }
             //await Shell.Current.GoToAsync($"{nameof(ApartmentDetailPage)}?UnitNum={apartment.UnitNum}");
-            await Shell.Current.GoToAsync($"{nameof(ApartmentDetailPage)}", true,
+            await Shell.Current.GoToAsync($"{nameof(ApartmentDetailsPage)}", true,
                 new Dictionary<string, object>
                 {
                     {"Apartment", apartment}
