@@ -30,25 +30,25 @@
     <AppXManifest Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-21T20:13:57.836</Modified>
+      <Modified>2023-05-28T22:52:09.313</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-21T19:39:04.580</Modified>
+      <Modified>2023-05-28T22:24:24.484</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.runtimeconfig.json">
       <PackagePath>BaviHouse.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-18T18:01:24.129</Modified>
+      <Modified>2023-05-28T22:12:21.976</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.dll">
       <PackagePath>BaviHouse.dll</PackagePath>
-      <Modified>2023-05-21T20:13:56.181</Modified>
+      <Modified>2023-05-28T22:52:07.631</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BaviHouse.exe</PackagePath>
-      <Modified>2023-05-21T20:13:56.228</Modified>
+      <Modified>2023-05-28T22:52:07.695</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -928,7 +928,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.deps.json">
       <PackagePath>BaviHouse.deps.json</PackagePath>
-      <Modified>2023-05-21T20:13:57.582</Modified>
+      <Modified>2023-05-28T22:52:09.079</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>

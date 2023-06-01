@@ -15,7 +15,6 @@ public partial class DetailsUpdatePage : ContentPage
     double newDeposite;
     double newRent;
     double newWaterLaundry;
-    int oldElectricReading;
     int newElectricReading;
 
 

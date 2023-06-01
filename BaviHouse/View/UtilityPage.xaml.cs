@@ -31,4 +31,8 @@ public partial class UtilityPage : ContentPage
         base.OnNavigatedTo(args);
     }
 
+    
+
+
+
 }

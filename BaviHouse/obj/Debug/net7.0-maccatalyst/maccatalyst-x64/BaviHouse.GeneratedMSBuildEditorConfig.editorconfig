@@ -10,6 +10,12 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BaviHouse
 build_property.ProjectDir = C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\
 
+[C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/ApartmentDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.ApartmentDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = ApartmentDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = ApartmentDetailPage.xaml
+
 [C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.App.xaml
@@ -21,6 +27,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
+
+[C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/MainPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.MainPage.xaml
+build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
+build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
 [C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
@@ -34,6 +46,12 @@ build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.Resources.Styles
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
+[C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/ApartmentDetailPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.ApartmentDetailPage.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ApartmentDetailPage.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ApartmentDetailPage.xaml
+
 [C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/ApartmentDetailsPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.ApartmentDetailsPage.xaml
@@ -45,6 +63,12 @@ build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.ApartmentPage.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ApartmentPage.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ApartmentPage.xaml
+
+[C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/ApartmentView.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = BaviHouse.View.ApartmentView.xaml
+build_metadata.AdditionalFiles.TargetPath = View\ApartmentView.xaml
+build_metadata.AdditionalFiles.RelativePath = View\ApartmentView.xaml
 
 [C:/Users/pltdu/OneDrive/Documents/SAIT Software Development Class E Winter 2023/Own Project/BaviHouse/View/DetailsUpdatePage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml

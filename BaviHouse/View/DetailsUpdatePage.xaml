@@ -53,8 +53,7 @@
                        HorizontalOptions="Start"
                        FontSize="25"
                    Text="{Binding Apartment.BeganDate}"
-                   x:Name="NewMoveInDate"
-                   TextChanged="NewMoveInDate_TextChanged"  />
+                   x:Name="NewMoveInDate"/>
         </Grid>
         <Grid ColumnDefinitions="*,*">
             <Label Text="Phone Number"
