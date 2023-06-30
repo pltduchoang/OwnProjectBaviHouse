@@ -25013,11 +25013,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pltdu\\OneDrive\\Documents\\SAIT Software Development Class E Winter 2023\\Own Project\\BaviHouse\\BaviHouse.csproj",
+      "projectUniqueName": "C:\\OOPProject\\Own Project\\BaviHouse\\BaviHouse.csproj",
       "projectName": "BaviHouse",
-      "projectPath": "C:\\Users\\pltdu\\OneDrive\\Documents\\SAIT Software Development Class E Winter 2023\\Own Project\\BaviHouse\\BaviHouse.csproj",
+      "projectPath": "C:\\OOPProject\\Own Project\\BaviHouse\\BaviHouse.csproj",
       "packagesPath": "C:\\Users\\pltdu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pltdu\\OneDrive\\Documents\\SAIT Software Development Class E Winter 2023\\Own Project\\BaviHouse\\obj\\",
+      "outputPath": "C:\\OOPProject\\Own Project\\BaviHouse\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [

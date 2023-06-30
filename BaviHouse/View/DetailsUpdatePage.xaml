@@ -47,13 +47,11 @@
             <Label Text="Move-in Date"
                        FontSize="25"
                        HorizontalOptions="Start"/>
-            <Entry Placeholder="Enter New Value"
-                       Grid.Column="1"
-                       WidthRequest="150"
-                       HorizontalOptions="Start"
-                       FontSize="25"
-                   Text="{Binding Apartment.BeganDate}"
-                   x:Name="NewMoveInDate"/>
+            <DatePicker
+                    x:Name="datepicker"
+                    MinimumDate="1/1/2021"
+                    Grid.Column="1"
+                    DateSelected="datepicker_DateSelected"/>
         </Grid>
         <Grid ColumnDefinitions="*,*">
             <Label Text="Phone Number"

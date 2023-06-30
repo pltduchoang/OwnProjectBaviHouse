@@ -10,15 +10,14 @@
     <PackageArchitecture>x64</PackageArchitecture>
     <PackageIdentityName>ca3e95ef-e669-4dbb-bd64-4aff377caab0</PackageIdentityName>
     <PackageIdentityPublisher>CN=User Name</PackageIdentityPublisher>
-    <IntermediateOutputPath>C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\</IntermediateOutputPath>
     <RemoteDeploymentType>CopyToDevice</RemoteDeploymentType>
     <PackageRegistrationPath>
     </PackageRegistrationPath>
     <RemoveNonLayoutFiles>false</RemoveNonLayoutFiles>
     <DeployOptionalPackages>false</DeployOptionalPackages>
-    <WindowsSdkPath>
-    </WindowsSdkPath>
-    <LayoutDir>C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\OOPProject\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppX</LayoutDir>
     <RegisteredManifestChecksum>1B46D2B55783D37C33BECC9AC59B6EAFDD5D82218E22FDEFE502703333869797</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>ca3e95ef-e669-4dbb-bd64-4aff377caab0_1.0.0.1_x64__9zz4h110yvjzm</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>ca3e95ef-e669-4dbb-bd64-4aff377caab0_9zz4h110yvjzm!App</RegisteredUserModeAppID>
@@ -27,28 +26,28 @@
     <RegisteredVersion>1.0.0.1</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
+    <AppXManifest Include="C:\OOPProject\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2023-05-28T22:52:09.313</Modified>
+      <Modified>2023-06-30T04:06:31.848</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2023-05-28T22:24:24.484</Modified>
+      <Modified>2023-06-30T04:06:31.446</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.runtimeconfig.json">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.runtimeconfig.json">
       <PackagePath>BaviHouse.runtimeconfig.json</PackagePath>
-      <Modified>2023-05-28T22:12:21.976</Modified>
+      <Modified>2023-06-30T03:48:49.620</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.dll">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\bin\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.dll">
       <PackagePath>BaviHouse.dll</PackagePath>
-      <Modified>2023-05-28T22:52:07.631</Modified>
+      <Modified>2023-06-30T04:06:30.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\apphost.exe">
       <PackagePath>BaviHouse.exe</PackagePath>
-      <Modified>2023-05-28T22:52:07.695</Modified>
+      <Modified>2023-06-30T04:06:30.513</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\pltdu\.nuget\packages\microsoft.netcore.app.runtime.win-x64\7.0.5\runtimes\win-x64\lib\net7.0\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -926,9 +925,9 @@
       <PackagePath>Microsoft.WindowsAppRuntime.Bootstrap.dll</PackagePath>
       <Modified>2022-11-08T19:31:24.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.deps.json">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\BaviHouse.deps.json">
       <PackagePath>BaviHouse.deps.json</PackagePath>
-      <Modified>2023-05-28T22:52:09.079</Modified>
+      <Modified>2023-06-30T04:06:31.713</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files\dotnet\packs\Microsoft.Maui.Controls.Ref.win\7.0.86\ref\net7.0-windows10.0.19041\Microsoft.Maui.Controls.Compatibility.pri">
       <PackagePath>Microsoft.Maui.Controls.Compatibility.pri</PackagePath>
@@ -942,239 +941,239 @@
       <PackagePath>Microsoft.Maui.pri</PackagePath>
       <Modified>2023-04-25T22:26:28.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\Resources\Raw\AboutAssets.txt">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\Resources\Raw\AboutAssets.txt">
       <PackagePath>AboutAssets.txt</PackagePath>
       <Modified>2023-05-17T23:14:32.205</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-100.png">
       <PackagePath>splashSplashScreen.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.190</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-125.png">
       <PackagePath>splashSplashScreen.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.207</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-150.png">
       <PackagePath>splashSplashScreen.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.231</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-200.png">
       <PackagePath>splashSplashScreen.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.267</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\sp\splashSplashScreen.scale-400.png">
       <PackagePath>splashSplashScreen.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.405</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Regular.ttf">
       <PackagePath>OpenSans-Regular.ttf</PackagePath>
       <Modified>2023-05-17T23:14:32.202</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\f\OpenSans-Semibold.ttf">
       <PackagePath>OpenSans-Semibold.ttf</PackagePath>
       <Modified>2023-05-17T23:14:32.203</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appicon.ico">
       <PackagePath>appicon.ico</PackagePath>
       <Modified>2023-05-17T23:14:45.456</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-100.png">
       <PackagePath>appiconLargeTile.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.689</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-125.png">
       <PackagePath>appiconLargeTile.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.700</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-150.png">
       <PackagePath>appiconLargeTile.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.710</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-200.png">
       <PackagePath>appiconLargeTile.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.727</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLargeTile.scale-400.png">
       <PackagePath>appiconLargeTile.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.785</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-16.png</PackagePath>
       <Modified>2023-05-17T23:14:45.527</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-24.png</PackagePath>
       <Modified>2023-05-17T23:14:45.530</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-256.png</PackagePath>
       <Modified>2023-05-17T23:14:45.545</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-32.png</PackagePath>
       <Modified>2023-05-17T23:14:45.532</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-lightunplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-lightunplated_targetsize-48.png</PackagePath>
       <Modified>2023-05-17T23:14:45.536</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-16.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-16.png</PackagePath>
       <Modified>2023-05-17T23:14:45.509</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-24.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-24.png</PackagePath>
       <Modified>2023-05-17T23:14:45.511</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-256.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-256.png</PackagePath>
       <Modified>2023-05-17T23:14:45.525</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-32.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-32.png</PackagePath>
       <Modified>2023-05-17T23:14:45.514</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.altform-unplated_targetsize-48.png">
       <PackagePath>appiconLogo.altform-unplated_targetsize-48.png</PackagePath>
       <Modified>2023-05-17T23:14:45.518</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-100.png">
       <PackagePath>appiconLogo.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.472</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-125.png">
       <PackagePath>appiconLogo.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.477</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-150.png">
       <PackagePath>appiconLogo.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.481</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-200.png">
       <PackagePath>appiconLogo.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.484</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.scale-400.png">
       <PackagePath>appiconLogo.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.488</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-16.png">
       <PackagePath>appiconLogo.targetsize-16.png</PackagePath>
       <Modified>2023-05-17T23:14:45.492</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-24.png">
       <PackagePath>appiconLogo.targetsize-24.png</PackagePath>
       <Modified>2023-05-17T23:14:45.494</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-256.png">
       <PackagePath>appiconLogo.targetsize-256.png</PackagePath>
       <Modified>2023-05-17T23:14:45.506</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-32.png">
       <PackagePath>appiconLogo.targetsize-32.png</PackagePath>
       <Modified>2023-05-17T23:14:45.496</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconLogo.targetsize-48.png">
       <PackagePath>appiconLogo.targetsize-48.png</PackagePath>
       <Modified>2023-05-17T23:14:45.499</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-100.png">
       <PackagePath>appiconMediumTile.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.593</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-125.png">
       <PackagePath>appiconMediumTile.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.598</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-150.png">
       <PackagePath>appiconMediumTile.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.603</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-200.png">
       <PackagePath>appiconMediumTile.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.612</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconMediumTile.scale-400.png">
       <PackagePath>appiconMediumTile.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.625</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-100.png">
       <PackagePath>appiconSmallTile.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.568</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-125.png">
       <PackagePath>appiconSmallTile.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.572</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-150.png">
       <PackagePath>appiconSmallTile.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.576</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-200.png">
       <PackagePath>appiconSmallTile.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.579</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconSmallTile.scale-400.png">
       <PackagePath>appiconSmallTile.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.588</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-100.png">
       <PackagePath>appiconStoreLogo.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.549</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-125.png">
       <PackagePath>appiconStoreLogo.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.552</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-150.png">
       <PackagePath>appiconStoreLogo.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.555</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-200.png">
       <PackagePath>appiconStoreLogo.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconStoreLogo.scale-400.png">
       <PackagePath>appiconStoreLogo.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.564</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-100.png">
       <PackagePath>appiconWideTile.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.630</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-125.png">
       <PackagePath>appiconWideTile.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.635</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-150.png">
       <PackagePath>appiconWideTile.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.642</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-200.png">
       <PackagePath>appiconWideTile.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.653</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\appiconWideTile.scale-400.png">
       <PackagePath>appiconWideTile.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.682</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-100.png">
       <PackagePath>dotnet_bot.scale-100.png</PackagePath>
       <Modified>2023-05-17T23:14:45.512</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-125.png">
       <PackagePath>dotnet_bot.scale-125.png</PackagePath>
       <Modified>2023-05-17T23:14:45.521</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-150.png">
       <PackagePath>dotnet_bot.scale-150.png</PackagePath>
       <Modified>2023-05-17T23:14:45.533</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-200.png">
       <PackagePath>dotnet_bot.scale-200.png</PackagePath>
       <Modified>2023-05-17T23:14:45.554</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\pltdu\OneDrive\Documents\SAIT Software Development Class E Winter 2023\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
+    <AppxPackagedFile Include="C:\OOPProject\Own Project\BaviHouse\obj\Debug\net7.0-windows10.0.19041.0\win10-x64\resizetizer\r\dotnet_bot.scale-400.png">
       <PackagePath>dotnet_bot.scale-400.png</PackagePath>
       <Modified>2023-05-17T23:14:45.598</Modified>
     </AppxPackagedFile>

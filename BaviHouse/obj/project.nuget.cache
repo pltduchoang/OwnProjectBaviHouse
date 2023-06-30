@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MOfugJwGPMPGUDMWIyRl/5WBZDGrtUpGA6EJNtoO65NIpzbrBdIwKeh0eukKmAUeMh2GJf/gCNz1rVrOYg2kBQ==",
+  "dgSpecHash": "UEzqpzfbP1z1/DljRzn6Pj0NDzgi7kO+spvkuinwPcEFUeWkG6A3XX8XPvLOHPw4az0wb0LImU6rQ59fpzX6SA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\pltdu\\OneDrive\\Documents\\SAIT Software Development Class E Winter 2023\\Own Project\\BaviHouse\\BaviHouse.csproj",
+  "projectFilePath": "C:\\OOPProject\\Own Project\\BaviHouse\\BaviHouse.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\pltdu\\.nuget\\packages\\communitytoolkit.mvvm\\8.2.0\\communitytoolkit.mvvm.8.2.0.nupkg.sha512",
     "C:\\Users\\pltdu\\.nuget\\packages\\googlegson\\2.9.1.1\\googlegson.2.9.1.1.nupkg.sha512",

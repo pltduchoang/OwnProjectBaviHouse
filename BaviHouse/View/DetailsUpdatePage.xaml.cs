@@ -29,7 +29,7 @@ public partial class DetailsUpdatePage : ContentPage
         unitNum = int.Parse(this.Lable.Text);
         newTentantName = this.NewTenantName.Text;
         newOccupation = this.NewOccupation.Text;
-        newMoveInDate = DateOnly.Parse(this.NewMoveInDate.Text);
+        newMoveInDate = DateOnly.FromDateTime(this.datepicker.Date);
         newPhone = this.NewPhone.Text;
         newDeposite = double.Parse(this.NewDeposite.Text);
         newRent = double.Parse(this.NewRent.Text);
@@ -76,17 +76,7 @@ public partial class DetailsUpdatePage : ContentPage
         }
     }
 
-    private void NewMoveInDate_TextChanged(object sender, TextChangedEventArgs e)
-    {
-        bool checkResult = ValidatorMethods.DateValidator(this.NewMoveInDate.Text);
-        if (checkResult)
-            newMoveInDate = DateOnly.Parse(this.NewMoveInDate.Text);
-        else
-        {
-            DisplayAlert("ErrorMoveDate", invalidMessage, "Cancel");
-            this.NewMoveInDate.Text = null;
-        }
-    }
+  
     private void NewPhone_TextChanged(object sender, TextChangedEventArgs e)
     {
         bool checkResult = ValidatorMethods.DoubleValidator(this.NewPhone.Text);
@@ -155,10 +145,23 @@ public partial class DetailsUpdatePage : ContentPage
 
     private void Button_Clicked(object sender, EventArgs e)
     {
-        DBConnect dBConnect = new DBConnect();
-        dBConnect.UpdateAppartment(unitNum,newTentantName,newOccupation,newMoveInDate,newDeposite,newPhone,newRent,newWaterLaundry,newElectricReading);
-        DisplayAlert("Task Successful","Database has been updated successfully","Reload");
-        DetailsUpdateViewModel.GoMain();
+        try
+        {
+            DBConnect dBConnect = new DBConnect();
+            dBConnect.UpdateAppartment(unitNum, newTentantName, newOccupation, newMoveInDate, newDeposite, newPhone, newRent, newWaterLaundry, newElectricReading);
+            DisplayAlert("Task Successful", "Database has been updated successfully", "Reload");
+            DetailsUpdateViewModel.GoMain();
+        }
+        catch (Exception ex)
+        {
+            DisplayAlert("Error", $"{ex.Message}", "Cancel");
+        }
+        
 
+    }
+
+    private void datepicker_DateSelected(object sender, DateChangedEventArgs e)
+    {
+        this.newMoveInDate = DateOnly.FromDateTime(this.datepicker.Date);
     }
 }
