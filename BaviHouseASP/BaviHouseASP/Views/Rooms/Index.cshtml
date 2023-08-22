@@ -1,0 +1,107 @@
+﻿@model IEnumerable<BaviHouseASP.Models.Room>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.RoomNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MoveInDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Deposit)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Rent)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.WaterLaundry)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PreviousePowerReading)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PowerReading)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PowerConsume)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PowerPrice)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PowerCost)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalCharge)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MoveInDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Deposit)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Rent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.WaterLaundry)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PreviousePowerReading)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PowerReading)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PowerConsume)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PowerPrice)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PowerCost)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TotalCharge)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
