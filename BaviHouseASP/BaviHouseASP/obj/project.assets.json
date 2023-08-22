@@ -11723,23 +11723,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pltdu\\.nuget\\packages\\": {},
+    "C:\\Users\\KnightFoxGaming\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\OOPProject\\GithubBavi\\OwnProjectBaviHouse\\BaviHouseASP\\BaviHouseASP\\BaviHouseASP.csproj",
+      "projectUniqueName": "C:\\GithubProjects\\OwnProjectBaviHouse\\BaviHouseASP\\BaviHouseASP\\BaviHouseASP.csproj",
       "projectName": "BaviHouseASP",
-      "projectPath": "C:\\OOPProject\\GithubBavi\\OwnProjectBaviHouse\\BaviHouseASP\\BaviHouseASP\\BaviHouseASP.csproj",
-      "packagesPath": "C:\\Users\\pltdu\\.nuget\\packages\\",
-      "outputPath": "C:\\OOPProject\\GithubBavi\\OwnProjectBaviHouse\\BaviHouseASP\\BaviHouseASP\\obj\\",
+      "projectPath": "C:\\GithubProjects\\OwnProjectBaviHouse\\BaviHouseASP\\BaviHouseASP\\BaviHouseASP.csproj",
+      "packagesPath": "C:\\Users\\KnightFoxGaming\\.nuget\\packages\\",
+      "outputPath": "C:\\GithubProjects\\OwnProjectBaviHouse\\BaviHouseASP\\BaviHouseASP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\pltdu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\KnightFoxGaming\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
